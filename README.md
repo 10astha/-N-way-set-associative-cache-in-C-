@@ -1,4 +1,1 @@
-Code for an arbitrary n-way set associative cache in C++. Implementation of
- 2 level caches, L1 and L2.  L1 cache sends read/write requests to the L2 cache. L2 cache interacts with DRAM. L1
-and L2 caches keep track of their own counters i.e. reads, writes, misses, hits etc
-For more detail read attached pdf
+ Implemented a proficient N-way set associative cache simulator in C++. The simulator includes L1 and L2 cache levels and effectively assigns read/write requests based on trace file inputs and key parameters such as the block size, cache size and cache associativity. It ensures seamless interaction between the caches and the DRAM. The simulator generates informative outputs, such as read hits, read misses, write misses, write hits, and the miss rate, facilitating comprehensive performance evaluation. This project demonstrates advanced skills in C++ programming, cache design, and meticulous performance analysis.
